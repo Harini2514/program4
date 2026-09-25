@@ -3,7 +3,6 @@ CREATE TABLE Course (
 CourseID INT PRIMARY KEY,
 CourseName VARCHAR(30) NOT NULL,
 Credits INT,
-DepartmentID INT
 );
 INSERT INTO Course (CourseID, CourseName, Credits, DepartmentID)
 VALUES
