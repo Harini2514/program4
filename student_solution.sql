@@ -1,6 +1,6 @@
 CREATE TABLE Course (
 CourseID INT PRIMARY KEY,
-CourseName VARCHAR(30) NOT NULL,
+CourseName VARCHAR(100),
 Credits INT,
 );
 INSERT INTO Course (CourseID, CourseName, Credits, DepartmentID)
